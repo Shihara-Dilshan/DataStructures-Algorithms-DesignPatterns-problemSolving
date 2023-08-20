@@ -47,7 +47,7 @@ class ResultSimpleArraySum {
 
 }
 public class SimpleArraySum {
-    public static void main(String[] args) throws Exception  {
+    public static void main(String[] args) {
         int result = ResultSimpleArraySum.simpleArraySum(Arrays.asList(5 ,6 ,7));
         System.out.println(result);
     }
