@@ -39,7 +39,7 @@ Sample Input 0
 Sample Output 0
     1 1
 */
-class Result {
+class ResultCompareTheTriplets {
     /*
      * Complete the 'compareTriplets' function below.
      *
@@ -72,7 +72,7 @@ class Result {
 }
 public class CompareTheTriplets {
     public static void main(String[] args) throws Exception  {
-        List<Integer> result = Result.compareTriplets(Arrays.asList(5 ,6 ,7),Arrays.asList(3, 6, 10));
+        List<Integer> result = ResultCompareTheTriplets.compareTriplets(Arrays.asList(5 ,6 ,7),Arrays.asList(3, 6, 10));
         System.out.println(result);
     }
 }
